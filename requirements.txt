@@ -1,0 +1,18 @@
+# Voice Input - Requirements
+# Портативное приложение для голосовой транскрипции
+
+# Core dependencies
+sounddevice>=0.4.6
+numpy>=1.26.4
+scipy>=1.10.0
+
+# ML Model - Parakeet TDT v3
+nemo_toolkit[asr]>=2.5.0
+torch>=2.8.0
+
+# UI & Hotkeys
+rumps>=0.4.0
+pynput>=1.7.6
+
+# Fix compatibility
+ml_dtypes>=0.5.0
